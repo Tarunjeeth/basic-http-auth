@@ -1,0 +1,109 @@
+*{
+    font-family: "PT Sans", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("bg.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    background-color: transparent;
+    width:420px;
+    backdrop-filter: blur(25px);
+    border-radius: 40px;
+    border:4px solid grey;
+    height:400px;
+    color:white;
+    padding:40px
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size:45px;
+    margin-bottom: 10px;
+}
+
+.input-box{
+    width:100%;
+    background-color: transparent;
+    height:50px;
+    position: relative;
+    margin-bottom:20px;
+}
+
+.input-box input::placeholder{
+    font-size:15px;
+    color:white;
+}
+
+
+
+.input-box input{
+    width:100%;
+    font-size:15px;
+    height:40px;
+    color: white;
+    border:2px solid gray;
+    border-radius: 40px;
+    padding:20px;
+    background-color: transparent;
+}
+
+.input-box i{
+    position:absolute;
+    top:30%;
+    right: 20px;
+}
+
+.remember-forgot{
+    display:flex;
+    justify-content: space-between;
+    font-size: 18px;;
+}
+
+.remember-forgot label{
+    font-weight: 600;
+}
+
+.remember-forgot a{
+    color:antiquewhite;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn{
+    width:100%;
+    height:60px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:40px
+}
+
+.register-link{
+    display:flex;
+    justify-content:center;
+}
+
+.register-link p{
+    font-size:18px;
+    font-weight: 400;
+    color:white;
+}
+
+.register-link a{
+    color: antiquewhite;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
